@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Free Wallpapers</title>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    #backToTop {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background: #6C63FF;
+      color: #fff;
+      border: none;
+      border-radius: 50%;
+      padding: 15px 20px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+      transition: background 0.3s, transform 0.3s, opacity 0.3s;
+      opacity: 0.7;
+      z-index: 1000;
+    }
+
+    #backToTop:hover {
+      background: #7d70ff;
+      transform: translateY(-2px);
+      opacity: 1;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h1>@R.edits01</h1>
+  <h3>Editor and Graphic Designer</h3>
+  <br>
+
+  <div class="link-buttons">
+    <a href="index.html" class="button">Home</a>
+    <a href="Info.html" class="button">General Information</a>
+    <a href="socals.html" class="button">My Socials</a>
+    <a href="wallpapers.html" class="button">Free Wallpapers</a>
+    <a href="Legal.htm" class="button">Copyright Info</a>
+  </div>
+  <br>
+  <h2>Free Wallpaper Collection: </h2>
+
+  <div class="wallpapers-grid">
+    <div class="wallpaper-card">
+      <img src="BmwJetsWallpaper.png" alt="BmwJetsWallpaper">
+      <p>BMW M3's</p>
+      <a href="BmwJetsWallpaper.png" download class="button small">⬇️ Download</a>
+    </div>
+
+    <div class="wallpaper-card">
+      <img src="Bmw Wallpaper.png" alt="BMW Wallpaper">
+      <p>BMW M2's</p>
+      <a href="Bmw Wallpaper.png" download class="button small">⬇️ Download</a>
+    </div>
+
+    <div class="wallpaper-card">
+      <img src="Cayenne and Panamera Wallpaper.png" alt="Cayenne and Panamera Wallpaper">
+      <p>Porsche Cayenne and Panamera</p>
+      <a href="Cayenne and Panamera Wallpaper.png" download class="button small">⬇️ Download</a>
+    </div>
+
+    <div class="wallpaper-card">
+      <img src="GTRWallpaper.png" alt="GTRWallpaper">
+      <p>Nissan GT-R</p>
+      <a href="GTRWallpaper.png" download class="button small">⬇️ Download</a>
+    </div>
+
+    <div class="wallpaper-card">
+      <img src="Porsche Wallpaper.png" alt="Porsche Wallpaper">
+      <p>Porsche 718 Spyder</p>
+      <a href="Porsche Wallpaper.png" download class="button small">⬇️ Download</a>
+    </div>
+
+    <div class="wallpaper-card">
+      <img src="DodgeCharger3d.jpg" alt="Dodge Charger">
+      <p>Dodge Charger</p>
+      <a href="DodgeCharger3d.jpg" download class="button small">⬇️ Download</a>
+    </div>
+
+    <div class="wallpaper-card">
+      <img src="Aston Martin Vantage Poster.png" alt="Aston Martin Vantage">
+      <p>Aston Martin Vantage</p>
+      <a href="Aston Martin Vantage Poster.png" download class="button small">⬇️ Download</a>
+    </div>
+  </div>
+</div>
+
+<button id="backToTop" onclick="scrollToTop()">&#8679; Top</button>
+
+<script>
+function scrollToTop(){
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+
+</body>
+</html>
